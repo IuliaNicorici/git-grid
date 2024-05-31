@@ -1,16 +1,21 @@
-.block {
-    margin: 0 auto;
-    padding: 50px;
+.body{
+    min-width: 320px;
     background-color: rgb(55, 230, 177);
 }
 
 .container {
+    margin: 0 auto;
+    padding: 50px;
+    max-width: 1100px;
+}
+
+.block {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     padding: 30px;
-    width: 600px;
-    height: 400px;
+    max-width: 600px;
+    min-height: 400px;
     border: 1px solid #000;
     gap: 30px;
 }
